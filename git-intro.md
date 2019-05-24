@@ -12,11 +12,10 @@ También Linus.
 ![Linus](http://www.quickmeme.com/img/16/166e431445962d77fa8f67aa677ab49b2fc67894f1385e0d1bb370d59a2cb681.jpg)
 
 ## Definición de conceptos
- The git parable:
 
  - Es una máquina del tiempo
  - Registro de cambios. Git permite generar snapshots de distintos momentos de la historia a los cuales puedo moverme libremente. Cada registro tiene un enlace asociado para recordarlo mejor.
- - Diversas veriones de una base de código independientes.
+ - Diversas versiones de una base de código independientes.
 
 ## Instalación
 
