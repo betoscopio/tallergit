@@ -2,7 +2,7 @@
 
 ## Qué es un CVS y por qué usarlo?
 
-
+[![Perfection](https://preview.redd.it/05b6u19pseoz.png?width=960&crop=smart&auto=webp&s=71ebd902c8adf4ed1f30a8c3d99a99cb0f9a7888)](https://www.reddit.com/r/ProgrammerHumor/comments/72rki5/the_real_version_control/)
 
 ## Breve historia
 
@@ -28,7 +28,33 @@
   - Commits
   `$ git commit -m "Mensaje relevante y explicativo del cambio."`
   - Revisando la historia
+  ```
+  $ git log
+  $ git log --oneline
+  $ git log --oneline --decorate
+  $ git log --graph --oneline --decorate
+  $ git log --stat
+  $ git log -p
+  $ git shortlog
+  $ git log -3
+  $ git log --after="2018-5-1"
+  $ git log --after="yesterday"
+  $ git log --after="2014-7-1" --before="2014-7-4"
+  $ git log --author="Beto"
+  $ git log --grep="Mensaje"
+  ```
+
   - Branches
+    ```
+    $ git brach rama
+    $ git checkout rama
+    $ git checkout -b otra-rama
+    ```
+
+  - Revisar diferencias
+    ```
+    $ git diff <source_branch> <target_branch>
+    ```
   - Clonar
   ```
   $ git clone /path/to/repository
@@ -37,13 +63,32 @@
  -  Repositorios remotos
     `git remote -v`
     `git remote add origin https://github.com/betoscopio/tallergit.git`
- - Push/Pull
     `git push -u origin master`
+ - Push/Pull
+    ```
+    git fetch
+    git merge
+    git pull
+    ```
+ - Sobreescribiendo la historia
+   `$ git revert`
+ - Ojo ahí. **Precaución**
+  ```
+  $ git checkout -- <filename>
+  $ git fetch origin
+  $ git reset --hard origin/master
+  ```
  -  Proveedores Git
-   - [Github](https://github.com/)
-   - [Bitbucket](https://bitbucket.org/)
-   - [Gitlab](https://about.gitlab.com/)
+    - [Github](https://github.com/)
+    - [Bitbucket](https://bitbucket.org/)
+    - [Gitlab](https://about.gitlab.com/)
  -  Auditando cambios
+    ```
+    $ git blame file
+    $ git blame -L 1,5 README.md
+    $ git blame -M README.md
+    $ git blame -C README.md
+    ```
 
 # Ejercicio práctico:
   - Trabajo en un proyecto colaborativo.
