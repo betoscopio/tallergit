@@ -1,10 +1,15 @@
 # Introducción a Git
 
-## Qué es un CVS y por qué usarlo?
+## Qué es un DSCVS y por qué usarlo?
 
 [![Perfection](https://preview.redd.it/05b6u19pseoz.png?width=960&crop=smart&auto=webp&s=71ebd902c8adf4ed1f30a8c3d99a99cb0f9a7888)](https://www.reddit.com/r/ProgrammerHumor/comments/72rki5/the_real_version_control/)
 
 ## Breve historia
+![Cheap talk](https://i.imgflip.com/1issnv.jpg)
+
+También Linus.
+
+![Linus](http://www.quickmeme.com/img/16/166e431445962d77fa8f67aa677ab49b2fc67894f1385e0d1bb370d59a2cb681.jpg)
 
 ## Definición de conceptos
  The git parable:
