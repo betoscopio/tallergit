@@ -1,6 +1,6 @@
 # Introducción a Git
 
-## Qué es un DSCVS y por qué usarlo?
+## Qué es un DCVS y por qué usarlo?
 
 [![Perfection](https://preview.redd.it/05b6u19pseoz.png?width=960&crop=smart&auto=webp&s=71ebd902c8adf4ed1f30a8c3d99a99cb0f9a7888)](https://www.reddit.com/r/ProgrammerHumor/comments/72rki5/the_real_version_control/)
 
